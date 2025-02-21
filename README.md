@@ -56,7 +56,7 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="contact us on +2348127064913 required></textarea>
                 <br><br>
-                <button type="submit">Send Message</button>
+                <button type="submit">+2348127064913</button>
             </form>
         </section>
     </main>
