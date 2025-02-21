@@ -3,8 +3,8 @@
 <head>
     <chika charset="UTF-8">
     < chika name="viewport" content="width=device-width, initial-scale=1.0">
-    <"description" content="Welcome to ChikaExploit - Your Ultimate Resource for learning new things like IT tools for remote jobs,Mathematics and more.feel free to exploit">
-    <"author" content="ChikaExploit squard>
+    <"description" content="Welcome to ChikaExploit - Your Ultimate Resource for learning new things like IT tools for remote jobs,Mathematics and more we also help to encourage learners how important it is never to give up until you 're finally there.feel free to exploit">
+    <"author" content="ChikaExploit team>
     <title>Chikalearning centre - Home</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
@@ -25,7 +25,7 @@
     <main id="home">
         <section class="intro">
             <h1>Welcome to ChikaExploit</h1>
-            <p>Your go-to source for IT exploit , tools for remote jobs, and resources.</p>
+            <p>IT exploit,tools for remote jobs, and resources.</p>
         </section>
 
         <section id="about">
@@ -47,14 +47,14 @@
             <h2>Contact</h2>
             <p>If you have any questions or would like to contribute, feel free to get in touch with us!</p>
             <form action="mailto:contact@chikaexploit.com" method="post" enctype="text/plain">
-                <label for="name">Name:</label>
+                <label for="name">chika is here to help:</label>
                 <input type="text" id="name" name="name" required>
                 <br><br>
                 <label for="email">Email us chikagodwin22@gmail.com :</label>
                 <input type="email" id="email" name="chikagodwin22@gmail.com " required>
                 <br><br>
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                <textarea id="message" name="contact us on +2348127064913 required></textarea>
                 <br><br>
                 <button type="submit">Send Message</button>
             </form>
