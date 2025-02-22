@@ -1,69 +1,19 @@
 <html lang="en">
-
-<head>
-    <chika charset="UTF-8">
-    < chika name="viewport" content="width=device-width, initial-scale=1.0">
-    <"description" content="Welcome to ChikaExploit - Your Ultimate Resource for learning new things like IT tools for remote jobs,Mathematics and more we also help to encourage learners how important it is never to give up until you 're finally there.feel free to exploit">
-    <"author" content="ChikaExploit team>
-    <title>Chikalearning centre - Home</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-</head>
-
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main id="home">
-        <section class="intro">
-            <h1>Welcome to ChikaExploit</h1>
-            <p>IT exploit,tools for remote jobs, and resources.</p>
-        </section>
-
-        <section id="about">
-            <h2>About Us</h2>
-            <p>At ChikaExploit, we provide a platform for learning different IT tools and support , create, and share IT Surppot tools.</p>
-        </section>
-
-        <section id="projects">
-            <h2>Our Projects</h2>
-            <p>Explore our various projects designed to help enhance your IT knowledge  and  skill development .</p>
-            <ul>
-                <li><a href="#">Exploit Tool 1</a></li>
-                <li><a href="#">Exploit Tool 2</a></li>
-                <li><a href="#">Exploit Tool 3</a></li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>If you have any questions or would like to contribute, feel free to get in touch with us!</p>
-            <form action="mailto:contact@chikaexploit.com" method="post" enctype="text/plain">
-                <label for="name">chika is here to help:</label>
-                <input type="text" id="name" name="name" required>
-                <br><br>
-                <label for="email">Email us chikagodwin22@gmail.com :</label>
-                <input type="email" id="email" name="chikagodwin22@gmail.com " required>
-                <br><br>
-                <label for="message">Message:</label>
-                <textarea id="message" name="contact us on +2348127064913 required></textarea>
-                <br><br>
-                <button type="submit">+2348127064913</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 ChikaExploit. All rights reserved.</p>
-    </footer>
+<head " BELADO">  <p>(https://www.canva.com/design/DAGf0DjM6SY/4dM5_wmtWe7HlVlw0rQ5ug/edit) name="viewport" content="width=device-width, initial-scale=1.0"</p> 
+    <"!--nagivation menu--">
+    <"h1 Home " >
+    <"h1 blueishgreen background ">
+    <h1 welcome to BELADO/h1><p>your creative journey begins here whether you're an aspiring writer or a seasoned novelist,our platform provides the tools and community you need to bring stories to life.write,edit and publish your novel with ease and share it with the world. join a vibrant community of writers and readers,and start your next literary adventure today!</p> <a"Get started</a> 
+    <h1>quil pen</h1>h1> <pen"segue UI', Tahoma,Geneva,sans-serif">
 </body>
-
+    </html>
+<h2>Library</h2>h1> <p>explore our collections.</p>
+    <h3>Cartoon Library</h3> <p>Explore a wide range of cartoon books</p>
+        < "Integration">    
+<h1>Canva Design</h1> <iframe"https://www.canva.com/design embed"width="800" height="600"true></iframe>
+<h2>Figma Design<h2> <iframe"width="800"height="600""https://www.figma.com/embed"true></iframe> 
+<h3>Embedded Google Document</h3> <frame "https://docs.google.com/document/d/e/embedded=true"width="800"height="600"></h2>iframe>
+            
+     <footer>      
+              <p>&copy; 2025 BELADO All rights Reserved </p>
 </html>
