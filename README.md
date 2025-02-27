@@ -1,38 +1,90 @@
-<!DOCTYPE html>
-<html lang=en">
-<head>
-<"My charset=" UTF-8">
-chikaname="viewport" content="width=device-width, initial-scale=1.0"</p> 
-</title> BELADO inspired writer</title>
-    <link rel="styesheet"href="styles.css">
-    </head>
-    <body>
-   <div class="container">
-<!--sidebar-->
-<aside class="sidebar">
-    <div class="logo">My app</div>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li>a href="#">Quill pen</li>a</li>
-            <li>a href="#">Library </li>a</li>
-            <li><a href="#">Cartoon Library </li>a</li>
-            <li><a href="#">Settings</a>a></li>
-     </ul>
-    </nav>     
- </aside>      
- <!--mai               
-    <h1 welcome to BELADO/h1><p>your creative journey begins here whether you're an aspiring writer or a seasoned novelist,our platform provides the tools and community you need to bring stories to life.write,edit and publish your novel with ease and share it with the world. join a vibrant community of writers and readers,and start your next literary adventure today!</p> <a"Get started</a> 
-    <h1>quil pen</h1>h1> <pen"segue UI', Tahoma,Geneva,sans-serif">
-</body>
-    </html>
-<h2>Library</h2>h1> <p>explore our collections.</p>
-    <h3>Cartoon Library</h3> <p>Explore a wide range of cartoon books</p>
-        < "Integration">    
-<h1>Canva Design</h1> <iframe"https://www.canva.com/design embed"width="800" height="600"true></iframe>
-<h2>Figma Design<h2> <iframe"width="800"height="600""https://www.figma.com/embed"true></iframe> 
-<h3>Embedded Google Document</h3> <frame "https://docs.google.com/document/d/e/embedded=true"width="800"height="600"></h2>iframe>
-            
-     <footer>      
-              <p>&copy; 2025 BELADO All rights Reserved </p>
-</html>
+// Switch between tabs
+function showTab(tabName) {
+    const tabs = document.querySelectorAll('.tab'); // Get all tabs
+    tabs.forEach(tab => tab.style.display = 'none'); // Hide all tabs
+    document.getElementById(tabName).style.display = 'block'; // Show the selected tab
+}
+
+// Initially show the "writing" tab by default
+showTab('writing');
+
+// Word count update for novel writing
+const novelTextArea = document.getElementById('novel-text');
+novelTextArea.addEventListener('input', function() {
+    const wordCount = novelTextArea.value.split(/\s+/).filter(word => word.length > 0).length;
+    document.getElementById('word-count').innerText = 'Word count: ' + wordCount;
+});
+
+// Save and load novel text
+function saveText() {
+    const text = novelTextArea.value;
+    localStorage.setItem('novelText', text);
+    alert('Text saved!');
+}
+
+function loadText() {
+    const savedText = localStorage.getItem('novelText');
+    if (savedText) {
+        novelTextArea.value = savedText;
+    } else {
+        alert('No saved text found!');
+    }
+}
+
+// Canvas drawing (simple)
+const canvas = document.getElementById('draw-canvas');
+const ctx = canvas.getContext('2d');
+let drawing = false;
+
+canvas.addEventListener('mousedown', function(e) {
+    drawing = true;
+    ctx.beginPath();
+    ctx.moveTo(e.offsetX, e.offsetY);
+});
+
+canvas.addEventListener('mousemove', function(e) {
+    if (drawing) {
+        ctx.lineTo(e.offsetX, e.offsetY);
+        ctx.stroke();
+    }
+});
+
+canvas.addEventListener('mouseup', function() {
+    drawing = false;
+});
+
+function clearCanvas() {
+    <Canva id="draw-canvas"width="500" height="300"></canva>
+// Character profile management
+let characterList = JSON.parse(localStorage.getItem('characters')) || [];
+
+function saveCharacter() {
+    const charName = document.getElementById('char-name').value;
+    const charDescription = document.getElementById('char-description').value;
+
+    if (charName && charDescription) {
+        const newCharacter = { name: charName, description: charDescription };
+        characterList.push(newCharacter);
+        localStorage.setItem('characters', JSON.stringify(characterList));
+        updateCharacterList();
+    }
+}
+
+function updateCharacterList() {
+    const charListDiv = document.getElementById('character-list');
+    charListDiv.innerHTML = '';
+    characterList.forEach((char, index) => {
+        const charItem = document.createElement('div');
+        charItem.classList.add('character-item');
+        charItem.innerHTML = `<strong>${char.name}</strong>: ${char.description}`;
+        charListDiv.appendChild(charItem);
+    });
+}
+
+updateCharacterList(); // Initially load character profiles
+
+<script src="scripts.js"></script>
+
+
+
+
